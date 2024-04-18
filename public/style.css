@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+
+    font-family: 'Poppins', sans-serif;
+    background-image: url('assets/bgimg\ \(2\).jpg');
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+/* Full login box */
+
+.center-div{
+
+    padding-top: 10%;
+
+}
+
+/* button adjustment */
+.btn.btn-success{
+
+   padding:.4em 2em;
+  margin-top: 25px;
+}
+
+.container{
+
+    border-radius: 20px;
+}
+
+/* form adjustments */
+form{
+    padding: 0 16px;
+}
+
+#login.title>span{
+    
+    font-size: .8em;
+}
+
+input[type="email"].form-control {
+    
+    color: black;
+    margin-bottom: 25px;
+    background-color: #00000016;
+    box-sizing: 50px;
+    border:none;
+
+    
+  }
+  
+  input[type="password"].form-control{
+
+    background-color: #00000016;
+    border:none
+  }
